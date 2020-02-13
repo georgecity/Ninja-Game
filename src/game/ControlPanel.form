@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="game.ControlPanel">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="1" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="7" y="20" width="707" height="163"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+      <doubleBuffered value="true"/>
+      <focusable value="true"/>
+      <foreground color="-16761024"/>
+      <opaque value="false"/>
+      <visible value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="95ec8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Engravers MT"/>
+          <text value="Settings"/>
+        </properties>
+      </component>
+      <component id="9d207" class="javax.swing.JButton" binding="pauseButton">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16766655"/>
+          <font name="Engravers MT"/>
+          <text value="Start"/>
+        </properties>
+      </component>
+      <component id="87502" class="javax.swing.JButton" binding="startButton">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16766655"/>
+          <font name="Engravers MT"/>
+          <text value="Pause"/>
+        </properties>
+      </component>
+      <component id="9014a" class="javax.swing.JButton" binding="exitButton">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16766655"/>
+          <borderPainted value="false"/>
+          <font name="Engravers MT"/>
+          <opaque value="true"/>
+          <text value="Exit"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="30af2" class="javax.swing.JComboBox" binding="LvlSelector">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16766655"/>
+          <font name="Engravers MT"/>
+          <model>
+            <item value="Level 1"/>
+            <item value="Level 2"/>
+            <item value="Level 3"/>
+            <item value="Level 4"/>
+          </model>
+        </properties>
+      </component>
+      <component id="23361" class="javax.swing.JComboBox" binding="save_load">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16766655"/>
+          <font name="Engravers MT"/>
+          <model>
+            <item value="SAVE"/>
+            <item value="LOAD"/>
+          </model>
+        </properties>
+      </component>
+      <component id="9cb91" class="javax.swing.JComboBox" binding="GameSlot">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16766655"/>
+          <font name="Engravers MT"/>
+          <model>
+            <item value="SLOT_1"/>
+            <item value="SLOT_2"/>
+            <item value="SLOT_3"/>
+          </model>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
